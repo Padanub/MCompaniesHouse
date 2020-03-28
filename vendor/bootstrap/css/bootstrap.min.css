@@ -1870,6 +1870,7 @@ pre code {
 .table-hover tbody tr:hover {
 	color: #000000;
 	background-color: #e9ecef;
+	cursor: pointer;
 }
 .table-primary,
 .table-primary > th,
@@ -9983,7 +9984,6 @@ a.text-dark:focus {
 .navbar-brand {
 	padding: 0.75rem 1rem calc(54px - 0.75rem - 30px);
 	margin-right: 0;
-	border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 .navbar .nav-item.active .nav-link {
 	background-color: rgba(0, 0, 0, 0.3);
